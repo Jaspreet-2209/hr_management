@@ -15,7 +15,7 @@ export default function Pricing() {
   }, []);
 
   function fetchDetails() {
-    fetch("http://localhost:8080/details/getdetails", {
+    fetch("https://hr-management-nhrr.onrender.com/details/getdetails", {
       method: "GET",
     })
       .then((res) => res.json())
