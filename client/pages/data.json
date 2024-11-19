@@ -1,0 +1,71 @@
+
+   {
+
+    "hero": {
+      "headline": "Great Field Work Takes Great Team Work",
+      "subheadline":"Simplify HR with award-winning solutions for everything from hire to retire.",
+      "text1": "Employee database and reporting",
+      "text2":"Payroll, time, and benefits",
+      "text3":"Hiring and onboarding",
+      "img":"https://i.pinimg.com/originals/2e/f6/e3/2ef6e34d7553c163c32684b057b029d0.gif",
+      
+      "ctaButtons": [
+        {
+          "text": "Login",
+          "link": "/download"
+        },
+        {
+          "text": "Register",
+          "link": "#features"
+        }
+      ]
+    },
+    "features": [
+      {
+        "title": "Same-day onboarding",
+        "icon": "https://via.placeholder.com/100"
+      },
+      {
+        "title": "Best Pricing",
+        "icon": "https://via.placeholder.com/100"
+      },
+      {
+        "title": "Available in 180+ countries",
+        "icon": "https://via.placeholder.com/100"
+      }
+    ],
+    "pricing": [
+      {
+        "name": "Employee Details",
+        "img":"https://rippling.imgix.net/images/payroll.svg",
+        "content":"The employee profiles can be customized so you’re always collecting the information you need.",
+        "price": "Fetch",
+        "btn":"./fetchdetails",
+        "age":"PAYROLL"
+      },
+      {
+      "name": "Performance Management",
+      "img":"https://rippling.imgix.net/images/review-cycles.png?fm=png",
+      "content":"Painlessly manage goals, performance reviews, calibration, and compensation.",
+      "price": "Manage",
+      "btn":"./performance",
+      "age":"TALENT"
+    },
+    {
+      "name": "Time & Attendance",
+      "img":"https://rippling.imgix.net/images/time-and-attendance-1.png?fm=pnghttps://rippling.imgix.net/images/time-and-attendance-1.png?fm=png",
+      "content":"Time tracking for hourly employees. Automatic compliance checks for time cards with hours synced directly to payroll.",
+      "price": "Go to",
+      "btn":"./Geofence",
+      "age":"WORKFORCE MANAGEMENT"
+    },
+    {
+      "name": "Register Employee",
+      "img":"https://rippling2.imgix.net/icon-ASO.png",
+      "content":"The employee directory makes it easy to find and connect with any employee in your organization.",
+      "price": "Register",
+      "btn":"./employeform",
+      "age":"HR MANAGEMENT"
+    }
+]
+}
