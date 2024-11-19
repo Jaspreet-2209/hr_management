@@ -15,7 +15,7 @@ function Login(props: any) {
   const handleSubmit = async (e: any) => {
     e.preventDefault();
     window.sessionStorage.setItem("email", credentials.email);
-    const response = await fetch("http://localhost:8080/reg/login", {
+    const response = await fetch("https://hr-management-nhrr.onrender.com/reg/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
