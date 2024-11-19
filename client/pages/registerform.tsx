@@ -12,7 +12,7 @@ export default function Registerform(props: any) {
     e.preventDefault();
     window.sessionStorage.setItem("email", credentials.email);
     const { email, password } = credentials;
-    const response = await fetch("http://localhost:8080/reg/createuser", {
+    const response = await fetch("https://hr-management-nhrr.onrender.com/reg/createuser", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
