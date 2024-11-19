@@ -59,7 +59,7 @@ const Geofence = () => {
 
   const checkIn = async () => {
     const userId = '123'; // Example user ID
-    await axios.post('https://hr-management-system-f8uk.onrender.com/attendance/checkin', {
+    await axios.post('https://hr-management-nhrr.onrender.com/attendance/checkin', {
       userId,
       latitude: position.latitude,
       longitude: position.longitude,
@@ -68,7 +68,7 @@ const Geofence = () => {
 
   const checkOut = async () => {
     const userId = '123'; // Example user ID
-    await axios.post('https://hr-management-system-f8uk.onrender.com/attendance/checkout',{userId});
+    await axios.post('https://hr-management-nhrr.onrender.com/attendance/checkout',{userId});
   };
 
   return (
